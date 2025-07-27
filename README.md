@@ -59,9 +59,6 @@ Control your PowerPoint or Google Slides presentations using simple hand gesture
 
 ---
 
-## Demo
-
-*Add screenshots or a short demo video here.*
 
 ---
 
@@ -81,12 +78,3 @@ Control your PowerPoint or Google Slides presentations using simple hand gesture
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Author
-
-Created by [Your Name].
