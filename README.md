@@ -1,78 +1,92 @@
-Gesture-Based PPT Reader
-Control your PowerPoint or Google Slides presentations using simple hand gestures detected in real-time via webcam. This project uses Python, OpenCV, Mediapipe, and PyAutoGUI to create a seamless hands-free experience.
 
-Features
-🎥 Real-time webcam feed with gesture detection.
+# Gesture-Based PPT Reader
 
-✋ Show Open Palm → Next Slide.
+Control your PowerPoint or Google Slides presentations using simple hand gestures detected in real-time via webcam. This project uses **Python**, **OpenCV**, **Mediapipe**, and **PyAutoGUI** to create a seamless hands-free experience.
 
-✊ Show Fist → Previous Slide.
+---
 
-🖱️ Simulates keyboard events to work with any presentation software.
+## Features
 
-🧠 Lightweight and works offline.
+- 🎥 Real-time webcam feed with gesture detection.
+- ✋ Show **Open Palm** → **Next Slide**.
+- ✊ Show **Fist** → **Previous Slide**.
+- 🖱️ Simulates keyboard events to work with any presentation software.
+- 🧠 Lightweight and works offline.
 
-Technologies Used
-Python 3.x
+---
 
-OpenCV
+## Technologies Used
 
-Mediapipe
+- Python 3.x
+- OpenCV
+- Mediapipe
+- PyAutoGUI
 
-PyAutoGUI
+---
 
-Installation
-Clone or download the repository:
+## Installation
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/gesture-ppt-reader.git
-cd gesture-ppt-reader
-Install dependencies:
+1. **Clone or download** the repository:
 
-bash
-Copy
-Edit
-pip install opencv-python mediapipe pyautogui
-Usage
-Open your presentation (PowerPoint, Google Slides, etc.) in full-screen mode.
+   ```bash
+   git clone https://github.com/yourusername/gesture-ppt-reader.git
+   cd gesture-ppt-reader
+   ```
 
-Run the script:
+2. **Install dependencies**:
 
-bash
-Copy
-Edit
-python main.py
-After a 5-second delay, the script auto-switches to your presentation.
+   ```bash
+   pip install opencv-python mediapipe pyautogui
+   ```
 
-Use gestures:
+---
 
-✋ Open Palm (all fingers up) → Next Slide.
+## Usage
 
-✊ Fist (no fingers up) → Previous Slide.
+1. Open your presentation (PowerPoint, Google Slides, etc.) in full-screen mode.
+2. Run the script:
 
-Press ‘q’ to quit the application.
+   ```bash
+   python main.py
+   ```
 
-Demo
-Add screenshots or a short demo video here.
+3. After a 5-second delay, the script auto-switches to your presentation.
+4. Use gestures:
+   - ✋ **Open Palm (all fingers up)** → **Next Slide**.
+   - ✊ **Fist (no fingers up)** → **Previous Slide**.
 
-File Structure
-main.py – Main script to run gesture detection and slide control.
+5. Press **‘q’** to quit the application.
 
-hand_detector.py – Custom hand detection module using Mediapipe.
+---
 
-requirements.txt – (You can create this to list dependencies.)
+## Demo
 
-Notes
-Make sure your hand is clearly visible with good lighting.
+*Add screenshots or a short demo video here.*
 
-The system uses 10 fingers detected for palm and 0 fingers for fist.
+---
 
-The program includes a 1-second cooldown to prevent accidental double triggers.
+## File Structure
 
-License
+- `main.py` – Main script to run gesture detection and slide control.
+- `hand_detector.py` – Custom hand detection module using Mediapipe.
+- `requirements.txt` – (You can create this to list dependencies.)
+
+---
+
+## Notes
+
+- Make sure your hand is clearly visible with good lighting.
+- The system uses **10 fingers detected** for palm and **0 fingers** for fist.
+- The program includes a **1-second cooldown** to prevent accidental double triggers.
+
+---
+
+## License
+
 This project is licensed under the MIT License.
 
-Author
+---
+
+## Author
+
 Created by [Your Name].
